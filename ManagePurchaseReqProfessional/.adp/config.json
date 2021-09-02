@@ -1,0 +1,21 @@
+{
+  "componentname": "ui.s2p.mm.profrequisition.maintains1",
+  "safeMode": false,
+  "appvariant": "ManagePurchaseReqProfessional",
+  "layer": "CUSTOMER_BASE",
+  "sourceSystem": "Fibrogen",
+  "isOVPApp": false,
+  "isFioriElement": true,
+  "environment": "ABAP",
+  "destinations": [
+    {
+      "name": "Fibrogen",
+      "url": "http://fibrogen:443",
+      "proxyType": "OnPremise"
+    },
+    {
+      "name": "sapui5",
+      "url": "http://sapui5.hana.ondemand.com/1.71.16"
+    }
+  ]
+}
